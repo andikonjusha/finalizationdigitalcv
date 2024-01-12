@@ -96,8 +96,8 @@ header section .image-container img
 {
 display: block;
 /* Fits the image into the container div. */
-width: 80%;
-height: 80%;
+width: 100%;
+height: 100%;
 border: dotted 2px; /*made the picture border dotted*/
 border-radius: 50%; /* Rounds the image. */
 object-fit: cover; /* Preserves the original aspect ratio. */
@@ -191,7 +191,7 @@ margin-right: 1rem;  /*positioning reset button close to submit button*/
 
 
 /*Adapting my digital cv for smaller screens*/
-@media only screen and (max-width: 480px) { /*Set max width to 680 because under 680 my portrait image shrinks,technology and contact fit well */
+@media only screen and (max-width: 480px) { /*Set max width to 480  */
   body {
     font-size: 14px;
     margin: 1rem;
