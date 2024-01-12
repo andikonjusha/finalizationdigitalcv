@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="app.css">
+  <title>Andi Konjusha's Digital cv</title>
+</head>
+<body>
+    <header>
+      <!-- Intro to Andi's Digital Cv-->
+      
+      <section>
+        <div class="image-container">
+         <img src="images/Andi.jpg" alt="Portrait of Andi"  width="170" >
+        </div>
+        <div class="name-container">
+        <h1>Andi Konjusha</h1>
+        </div>  
+      
+        <div class="information-container">
+        <p>Email: <a href="mailto:andikonjusha@gmail.com">andikonjusha@gmail.com</a></p>
+        <p>Phone: (860) 978-5826</p>
+        </div>
+
+       </section>
+    </header>
+
+    <main>
+        <!-- Summary -->
+      <section>
+        <h2>Summary</h2>
+          <p>I am a highly skilled and passionate software engineer with expertise in developing innovative solutions to drive business growth. With a strong background in programming languages and software development methodologies, I am confident in my ability to contribute to any software engineering role.</p>
+        </section>
+
+      <section>
+        <!--Education-->
+
+        <h2>Education</h2>
+        <ul>
+            <li><strong><a href="https://www.springboard.com/courses/software-engineering-career-track/">Springboard</a></strong> - Software Engineering Career Track (in progress)</li>
+            <li><strong> Student in Computer Science (in progress)</strong></li>
+            <li><strong>Don Bosko High School (2015-2018)</strong></li>
+        </ul>
+
+      </section>
+      
+
+      <!-- Technologies -->
+      <section class="technologies">
+        <h2>Technologies</h2>
+        
+
+        <!-- Technologies-Web development -->
+        <div class="container">
+          <div>
+
+           <h3>Web Development</h3>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Node.js & Express</li>
+              <li>Python & Flask</li>
+              <li>React & Redux</li>
+          </ul>
+        </div>
+
+          <!-- Technologies-Database -->
+        <div>
+          <h3>Database</h3>
+          <ul>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>Node-pg & SQLAlchemy</li>
+          </ul>
+        </div>
+
+        <!-- Technologies-Testing -->
+        <div>
+          <h3>Testing</h3>
+          <ul>
+            <li>Unit Testing with Jasmine</li>
+          </ul>
+        </div>
+        <!-- Technologies: Other -->
+        <div>
+          <h3>Other</h3>
+          <ol>
+            <li>AI Prompt Engineering</li>
+            <li>Command Line</li>
+            <li>Git & GitHub</li>
+            <li>Object-Oriented Programming</li>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
+          </ol>
+        </div>
+        </div>  
+      </section>
+      
+
+      <!--Tools -->
+      <section class="tools">
+        <h2>Tools</h2>
+        <div class="container">
+        <table>
+          <!--Table header-->
+          <thead>
+            <tr>
+              <th>Tools</th>
+              <th>Description</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+
+          <tbody>
+             <tr>
+              <td>Visual Studio Code</td>
+              <td>Is a free coding editor that helps you start coding quickly. </td>
+              <td>Advanced</td>
+
+             </tr>
+
+             <tr>
+              <td>GitHub</td>
+              <td>GitHub is a code hosting platform for version control and collaboration. </td>
+              <td>Intermediate</td> 
+             </tr>
+
+             <tr>
+              <td>Microsoft Azure</td>
+              <td>Is a cloud-based software development platform.</td>
+              <td>Beginner</td> 
+             </tr>
+
+             <tr>
+              <td>Docker</td>
+              <td>Is a powerful platform that helps developers build, share, and run applications.</td>
+              <td>Beginner</td> 
+             </tr>
+
+          </tbody>
+        </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>Achievements</h2>
+        <ol>
+          <li> Springboard software-engineering-career-track Student 2024.</li>
+          <li> College Student on Computer Science</li>
+          
+        </ol>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects"> 
+        
+        <h2>Projects</h2>
+        <div class="message-container">
+         <p><em>Stay tuned! Exciting projects are on the way as I progress through the Springboard course.</em></p>         
+          </div>
+        </section>        
+    </main>
+
+    <footer>
+
+      <section class="contact">
+        
+        <!--Contact me -->
+        <h2>Contact Me</h2>
+
+        <div class="form-container">
+        <form action="#">
+          <div class="text-input-container">
+            <label for="name">Name:
+
+            </label>
+             <input  type="text" id="name" required placeholder="Your Name">
+          </div>
+
+           <div class="text-input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required  placeholder="Your Email">
+     
+          </div>
+
+          <div class="text-input-container">
+            <label for="organization">Organization:</label>
+            <input type="text" id="organization" name="organization" placeholder="Your Company" >
+
+          </div>
+
+          <div class="text-input-container">
+            <label for="Role">Role:</label>
+            <input type="text" id="Role" name="Role" placeholder="Your Role" >
+          </div>
+          <div class="select-container">
+            <label for="reason">Reason for Contact:</label>
+            <select   id="reason" name="reason" >
+              <option value="job-offer">Job Offer</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
+
+          <!--checkboxes on fieldset-->
+
+          <div class="checkbox-container">
+            <fieldset>
+              <legend>When do you prefer to code?</legend>
+
+              <div class="checkboxes-container">
+                <div>
+              <input 
+              type="checkbox" id="morning-time" name="coding-time" value="morning" >
+              <label for="morning-time">Early in the morning 8am-11am</label>
+            </div>
+            <div>
+              <input 
+              type="checkbox" id="afternoon-time" name="coding-time" value="afternoon" >
+
+              <label for="afternoon-time">Afternoon 11am-5pm</label>
+            </div>
+            <div>
+              <input 
+              type="checkbox" id="night-time" name="coding-time" value="Night" >
+
+              <label for="night-time">Night  5pm- 12am!</label>
+            </div>
+
+            <div>
+              <input
+               type="checkbox" id="mid-night" name="coding-time" value="midnight" >
+
+              <label for="mid-night">Midnight 12am-3am!</label>
+            </div>
+
+              </div>
+            </fieldset>
+        </div>
+
+            
+              <!--message-->
+              <div class="text-input-container">
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    required
+                    placeholder="Describe your machine in detail..."
+                    class="input"
+                ></textarea>
+              </div>                                          
+            <!--buttons-->
+            <div class="button-container">
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>      
+        </div>
+      </section>
+
+      <section>
+      <!-- Connect with git hub and linkedin -->
+      
+        <p>Let's connect and discuss more about software engineering! Find me on:</p>
+        <ul>
+          <li><a href="https://github.com/andikonjusha">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/andi-konjusha-1410a7173/">LinkedIn</a></li>
+        </ul>
+        <p>Learn more about my journey with <a href="https://www.springboard.com/">Springboard</a>.</p>
+      &copy;
+      </section>
+    </footer>
+</body>
+</html>
