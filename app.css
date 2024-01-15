@@ -57,11 +57,7 @@ main section,  footer section {
   border-top: solid  2px  #0752df;  
 }
 
-/*Apply padding below headers to provide spacing .*/
-h1, h2, h3 {
-  padding-bottom: 0.5rem;
-  
-}
+
 
 /*Adjust form elements to capture the same look and feel.*/
 form input, form textarea, form select{
